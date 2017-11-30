@@ -171,3 +171,11 @@ This project is licensed under the MIT open source license.
 ## About the Author
 
 [Jeff Geerling](https://www.jeffgeerling.com/) created Drupal VM in 2014 for a more efficient Drupal site and core/contrib development workflow. This project is featured as an example in [Ansible for DevOps](https://www.ansiblefordevops.com/).
+
+
+
+### Custome
+*  ```curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+    chmod +x /usr/local/bin/docker-compose```
+
+* ```sudo docker-compose up -d```
